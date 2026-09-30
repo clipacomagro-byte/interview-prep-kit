@@ -9,11 +9,18 @@ role where you get scenario questions.
 
 ## Use it for a new interview
 
-1. Click **Use this template** at the top of the repo, then download or clone your copy.
-2. Open `PROMPT.md`, paste it into Claude with the job ad and your CV, and save the
-   result over `data.js`. (Or edit `data.js` by hand: every `[BRACKET]` is a slot.)
-3. Double-click `index.html`. That is your sheet.
-4. Open it on the call and follow it top to bottom.
+Open this folder in Claude Code and say one sentence:
+
+> I have an interview with Adsterra
+
+Claude researches the company and the role, reads your CV, matches your real
+experience to what the job asks for, fills `data.js`, opens the sheet and tells
+you what to double-check. Nothing else to do. (Put your CV in this folder first
+as `cv.md` or `cv.txt`. It is ignored by git, so it stays private.)
+
+Without Claude Code: click **Use this template**, paste `PROMPT.md` into any AI
+chat with the job ad and your CV, save the result over `data.js`, and
+double-click `index.html`.
 
 ## See a finished example
 

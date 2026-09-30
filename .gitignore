@@ -1,0 +1,7 @@
+
+# Private CV files, never commit
+cv*
+CV*
+resume*
+Resume*
+*.pdf
